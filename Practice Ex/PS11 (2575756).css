@@ -1,0 +1,14 @@
+table{
+    border-collapse: collapse;
+    width: 600px;
+}
+th, td{
+    border:none;
+}
+td{
+padding-left: 60px;
+}
+th{
+    background-color: #000;
+    color: #fff;
+}

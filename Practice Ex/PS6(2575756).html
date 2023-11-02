@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head><link rel="stylesheet" href="ps6.css"></head>
+    <body>
+        <form id="create_account" action="/signup" method="post">
+            <fieldset id="signup">
+            <legend>Create New Account</legend>       
+            <label for="first_name">First Name</label><br>
+            <input type="text" name="first_name" autofocus id="first_name"><br><br>
+            <label for="last_name">Last Name</label><br>
+            <input id="last_name" type="text" autofocus required name="last_name" placeholder="Smith"><br><br>
+            <label for="email">Email</label><br>
+            <input id="email" type="email" required name="email" placeholder="user@example.com"><br><br>
+            <label for="password">Password</label><br>
+            <input id="password" type="password" name="Password" value="" autocomplete="off" placeholder="8-10 characters" /><br><br>
+            <label for="password_confirmation">Password Confirmation</label><br> 
+            <input id="password_confirmation" type="password" name="password_confirmation" value=""autocomplete="off" placeholder="Type your password again"><br><br>
+            <input type="submit" value="Sign Up">
+            </fieldset>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,6 @@
+input[required]:invalid, input[pattern]:invalid{
+     border-color: #fe4907;
+}
+input[required]:valid, input[pattern]:valid{ 
+    border: #12820a;
+}

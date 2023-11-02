@@ -1,0 +1,16 @@
+  meter {
+    width: 500px;
+    height: 100px;
+    box-sizing: border-box;
+    
+  }
+  meter::-webkit-meter-bar {
+        background: #b9b7b7;
+  }
+
+  meter::-webkit-meter-optimum-value,
+  meter::-webkit-meter-suboptimum-value,
+  meter::-webkit-meter-even-less-good-value {
+    background: #4adb4f;
+  }
+    
